@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cambria";
+  background: #000000;
+  color: #222;
+}
+.image {
+  margin-top: 1rem;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-left: 1.2rem;
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 2rem;
+  align-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(4, 0.5fr);
+  }
+}
+
+.book {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 1.4rem;
+}
+.book h3 {
+  margin-top: 0.5rem;
+}
+.book h5 {
+  margin-top: 0.5rem;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.author{
+    font-size: 0.88rem;
+}
+
+/* Search CSS */
+
+.box{
+    margin: 0 42%;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    width: 40px;
+}
+
+.input {
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    background: none;
+    border: 4px solid #97958e;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+    color: #97958e;
+    outline: none;
+    transition: .5s;
+}
+
